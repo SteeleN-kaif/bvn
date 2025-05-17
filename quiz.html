@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Викторина</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Викторина музея</h1>
+    </header>
+
+    <main>
+        <form id="quizForm">
+            <p><strong>Вопрос:</strong> Как звали бога грома в Древней Греции?</p>
+            <label><input type="radio" name="answer" value="Аполлон"> Аполлон</label>
+            <label><input type="radio" name="answer" value="Посейдон"> Посейдон</label>
+            <label><input type="radio" name="answer" value="Зевс"> Зевс</label>
+
+            <button type="submit">Проверить</button>
+        </form>
+
+        <p id="result"></p>
+        <p><a href="index.html">Назад в главное меню</a></p>
+    </main>
+</body>
+</html>
